@@ -75,10 +75,10 @@ Visit the [Arduino Software Page](https://www.arduino.cc/en/Main/Software) and f
 
 ![arduino](arduinoIDE.png "Arduino IDE")
 
-**Compile** - is used to compile your code before uploading to the board. 
-**Upload** - transfers your program to the mircocontroller. Once the upload is complete, you will receive feedback in the bottom of the window. 
-**setup()** - this functions executes once when your program starts. 
-**loop()** - this runs continually as long as your program is running. this is where you will read and write data. 
+**Compile** - is used to compile your code before uploading to the board. <br>
+**Upload** - transfers your program to the mircocontroller. Once the upload is complete, you will receive feedback in the bottom of the window. <br>
+**setup()** - this functions executes once when your program starts. <br>
+**loop()** - this runs continually as long as your program is running. this is where you will read and write data. <br>
 **serial mintor** - useful for debugging, reading sensor values, and for sending and receiving serial data. in order to use the serial monitor, you must initialize serial communication in the setup function. 
 
 Built into the Arduino IDE is useful example code. To access this, click File > Examples. 
