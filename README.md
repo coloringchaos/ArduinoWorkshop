@@ -91,15 +91,21 @@ Built into the Arduino IDE is useful example code. To access this, click File > 
 
 Inputs are your sensors - components that read a signal from the physical world and translate that into something that our microcontroller or computer can read. There are two kinds of inputs that we use with Arduino: **digital** and **analog**. 
 
+### Digital Inputs
+
 A digital input has a discreet number of possible inputs, usually only 0 or 1. We will use a momentary push button to demonstrate this. The button has two possible states, on and off. 
 
 To read a digital input, we use the Arduino function [`digitalRead()`](https://www.arduino.cc/en/Reference/DigitalRead)
+
+### Analog Inputs
 
 An analog input has an infiinte number of possible input values within a particular range. Analog inputs represent changing voltages. When we're using Arduino, we're working with a 5V system, so an incoming analog sensor can offer any possible value between 0V and 5V. A slider is a good example of an analog input. 
 
 The Arduino Uno and Sparkfun Redboard (which we are using) include a component called an Analog-to-Digital Converter (or ADC) that allow us to read incoming analog signals. The Arduino uses a 10-bit ADC, which means that we will receive values betwen 0-1023.
 
 To read an analog input, we use the Arduino function [`analogRead()`](https://www.arduino.cc/en/Reference/AnalogRead)
+
+### The Serial Monitor
 
 It is often helpful to be able to print the sensor values we're receiving, so that we can test if things are working and so that we can figure out what kind of sensor values we're able to work with. The **Serial Monitor** is helpful for this. 
 
