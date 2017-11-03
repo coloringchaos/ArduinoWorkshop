@@ -192,7 +192,41 @@ Here is the wiring for a potentiometer, connected with it's singal wire to A0.
 
 ![potentiometer](potentiometer.png "Potentiometer wiring")
 
-Here is the wiring for connecting an FSR (pressure sensor) to A1. This is the same wiring setup you would use for a photoresistor, or other analog input with two leads. 
+Here is the wiring for connecting an FSR (pressure sensor) to A1. This is the same wiring setup you would use for a photoresistor, or other analog input with two leads. You must use a pulldown resistor that provides a reference to ground, use 10kOhm resistor here.
 
 ![fsr](fsr.png "FSR wiring")
+
+Here is the code for reading an analog input and printing the value to the serial montior. The following code also includes the command to light an LED based on the input value. 
+
+<pre>
+int sensorPin = A0;    // select the input pin for the potentiometer
+int sensorValue = 0;  // variable to store the value coming from the sensor
+
+int brightness; //variable for led brightness
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  // read the value from the sensor:
+  sensorValue = analogRead(sensorPin);
+
+  //print the value to the serial monitor so that we can see it
+  Serial.println(sensorValue);
+
+  //change the brightness of an LED based on sensor input
+  /* IMPORTANT NOTE: 
+   *  analog input is a value between 0-1023
+   *  but analog output is a value between 0-255
+   *  either divide by 4 or use the map() function
+   *  
+   *  also, you must use analogWrite on a PWM ~ pin
+   */
+
+   brightness = map(sensorValue, 0, 1023, 0, 255);
+   analogWrite(3, brightness);
+}
+
+</pre>
 
