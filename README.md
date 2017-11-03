@@ -30,6 +30,9 @@ There are many other microcontrollers and microcontroller platforms, but Arduino
 + Danny Rozin, [Wooden Mirror](https://vimeo.com/101408845)
 + [Opentrons](https://www.kickstarter.com/projects/932664050/opentrons-open-source-rapid-prototyping-for-biolog)
 + Simone Giertz, [Useless Robots](https://www.youtube.com/watch?v=UlP4Z_pWhKo)
++ Yingjie Bei and Yifan Hu, [Moon Phases](http://www.yingjiebei.com/Moon-Phases)
++ Rebecca Leiberman and Nick Bratton, [RootNote](https://www.rebeccalieberman.com/root-note/)
++ Ella Dagan, [The Coatroom](https://www.elladagan.com/the-cloakroom)
 
 <br>
 
