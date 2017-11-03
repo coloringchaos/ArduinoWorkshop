@@ -139,6 +139,8 @@ To use PWM, you must use a pin on your microcontroller that is marked with a thi
 
 ## Workshop Circuits
 
+### Digital In / Out
+
 We are going to start by building a circuit with a digital input (button) and digital outputs (LEDs). Here is the circuit:
 
 ![digitalio](digital_io.png "Digital I/O")
@@ -180,3 +182,10 @@ void loop() {
   }
 }
 </pre>
+
+
+### Analog In/Out
+
+Next, we'll explore analog sensors! These input a range of values between 0-1023. Here is the wiring for a potentiometer, connected with it's singal wire to A0. 
+
+![potentiometer](potentiometer.png "Potentiometer wiring")
