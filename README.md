@@ -65,8 +65,6 @@ We will be building our circuit on a Breadboard.
 
 Sparkfun has a helpful, more in-depth tutorial on [How to use a breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
 
-![arduino](arduinoIDE.png "Arduino IDE")
-
 <br>
 
 ## The Arduino Programming Environment
@@ -75,9 +73,18 @@ Sparkfun has a helpful, more in-depth tutorial on [How to use a breadboard](http
 
 Visit the [Arduino Software Page](https://www.arduino.cc/en/Main/Software) and find the link to Download the Arduino IDE. Download and install for your specific platform. 
 
+![arduino](arduinoIDE.png "Arduino IDE")
 
+**Compile** - is used to compile your code before uploading to the board. 
+**Upload** - transfers your program to the mircocontroller. Once the upload is complete, you will receive feedback in the bottom of the window. 
+**setup()** - this functions executes once when your program starts. 
+**loop()** - this runs continually as long as your program is running. this is where you will read and write data. 
+**serial mintor** - useful for debugging, reading sensor values, and for sending and receiving serial data. in order to use the serial monitor, you must initialize serial communication in the setup function. 
 
-uploading code
+Built into the Arduino IDE is useful example code. To access this, click File > Examples. 
+
+![examples](examples.png "Arduino Examples")
+
 
 ## Inputs
 
