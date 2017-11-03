@@ -46,11 +46,24 @@ helpful tools for physical computing
 
 using a breadboard
 
-## The Microcontroller
+## Hardware Setup
 
 Today, we are using the Sparkfun Redboard, which is Sparkfun's equivalent of the Arduino Uno.
 
+<br>
+
 ![redboard](redboard.png "Sparkfun Redboard")
+
+<br>
+
+We will be building our circuit on a Breadboard.
+
+![breadboard](breadboard.jpg "Prototyping Breadboard")
+
+
+<br>
+
+Sparkfun has a helpful, more in-depth tutorial on [How to use a breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
 
 
 ## The Arduino Programming Environment
