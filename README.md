@@ -139,4 +139,44 @@ To use PWM, you must use a pin on your microcontroller that is marked with a thi
 
 ## Workshop Circuits
 
-We are going to start by 
+We are going to start by building a circuit with a digital input (button) and digital outputs (LEDs). Here is the circuit:
+
+![digitalio](digital_io.png "Digital I/O")
+
+Next, we need to program the microcontroller. Here is the finished Arduino code. 
+
+<pre>
+// constants won't change. They're used here to set pin numbers:
+const int buttonPin = 2;       // the number of the pushbutton pin
+const int redLedPin =  3;      // the pin number of red led
+const int yellowLedPin = 4;    // the pin number of yellow led
+
+// variables will change:
+int buttonState = 0;         // variable for reading the pushbutton status
+
+void setup() {
+  // initialize the LED pins as an output:
+  pinMode(redLedPin, OUTPUT);
+  pinMode(yellowLedPin, OUTPUT);
+  
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin, INPUT);
+}
+
+void loop() {
+  // read the state of the pushbutton value:
+  buttonState = digitalRead(buttonPin);
+
+  // check if the pushbutton is pressed.
+  // if it is, the buttonState is HIGH:
+  if (buttonState == HIGH) {
+    // turn red on and yellow off
+    digitalWrite(redLedPin, HIGH);
+    digitalWrite(yellowLedPin, LOW);
+  } else {
+    // turn red off and yellow on
+    digitalWrite(redLedPin, LOW);
+    digitalWrite(yellowLedPin, HIGH);
+  }
+}
+</pre>
