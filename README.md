@@ -28,11 +28,12 @@ There are many other microcontrollers and microcontroller platforms, but Arduino
 ### Example Projects
 + Jen Lewin, [Sidewalk Harp](https://www.youtube.com/watch?v=jXBtkfPY2D0 )
 + Danny Rozin, [Wooden Mirror](https://vimeo.com/101408845)
-+ [Opentrons](https://www.kickstarter.com/projects/932664050/opentrons-open-source-rapid-prototyping-for-biolog)
-+ Simone Giertz, [Useless Robots](https://www.youtube.com/watch?v=UlP4Z_pWhKo)
 + Yingjie Bei and Yifan Hu, [Moon Phases](http://www.yingjiebei.com/Moon-Phases)
 + Rebecca Leiberman and Nick Bratton, [RootNote](https://www.rebeccalieberman.com/root-note/)
 + Ella Dagan, [The Coatroom](https://www.elladagan.com/the-cloakroom)
++ Jingwen Zhu, [Heart on my dress](http://www.jingwen-zhu.com/#/my-heart-on-my-dress/)
++ Simone Giertz, [Useless Robots](https://www.youtube.com/watch?v=UlP4Z_pWhKo)
++ [Opentrons](https://www.kickstarter.com/projects/932664050/opentrons-open-source-rapid-prototyping-for-biolog)
 
 <br>
 
