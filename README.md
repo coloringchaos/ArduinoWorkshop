@@ -42,9 +42,7 @@ There are many other microcontrollers and microcontroller platforms, but Arduino
 + [Electronics Club](https://electronicsclub.info/) is a site written by beginners but used my many as a reference for anyone wishing to learn about electronics or build simple projects.
 + [Adafruit's Guide to Soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering) is very helpful for fabrication things!
 
-helpful tools for physical computing
-
-using a breadboard
+<br>
 
 ## Hardware Setup
 
@@ -85,8 +83,6 @@ Built into the Arduino IDE is useful example code. To access this, click File > 
 
 ![examples](examples.png "Arduino Examples")
 
-<br>
-
 ## Inputs
 
 Inputs are your sensors - components that read a signal from the physical world and translate that into something that our microcontroller or computer can read. There are two kinds of inputs that we use with Arduino: **digital** and **analog**. 
@@ -115,7 +111,22 @@ In order to use the Serial Monitor, we first need to initialize serial communica
 
 Then, after you have read your sensor value, you can print that to the serial monitor, using [`Serial.println()`](https://www.arduino.cc/en/Serial/Println). If you would like to print multiple values, you may find it useful to format your message using [`Serial.print()`](https://www.arduino.cc/en/Serial/Print) as well (this function does not include a built in new line + carriage return). 
 
+<br>
+
 ## Outputs
 
+Outputs fall into two categories also, digital and analog. 
+
+### Digital Outputs
+
+Like inputs, digital outputs have a finite number of possible values. In the context of what we'll be workign with in Arduino, they will be either on or off. A good example of this would be turning an LED on or off. To program a digital output, use the function [`digitalWrite()`](https://www.arduino.cc/en/Reference/DigitalWrite). You can pass the `digitalWrite()` function a value of 0 or 1, or also the word HIGH or LOW. 
+
+### Analog Outputs
+
+Because our microcontroller is inherently digital (it operates on discreet signals), it cannot output a true analog voltage. Fortunately, there is a technique that we can use to 'fake' it, and produce a pseudo-analog output. The principle is called PWM, and you can read more about it [here](https://learn.sparkfun.com/tutorials/pulse-width-modulation). PWM is very useful if we want to dim an LED, or if we wanted to move a servo motor. The range of possible values that we can output using PWM is limited to an 8-bit number, which means a range of 0-255. 
+
+To use PWM, you must use a pin on your microcontroller that is marked with a this sympol ` ~ `. This includes pins 3, 5, 6, 9, 10, and 11. To use PWM, use the function [`analogWrite`}(https://www.arduino.cc/en/Reference/AnalogWrite)
+
+<br>
 
 ## Going Further
