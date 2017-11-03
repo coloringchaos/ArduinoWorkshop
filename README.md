@@ -186,6 +186,13 @@ void loop() {
 
 ### Analog In/Out
 
-Next, we'll explore analog sensors! These input a range of values between 0-1023. Here is the wiring for a potentiometer, connected with it's singal wire to A0. 
+Next, we'll explore analog sensors! These input a range of values between 0-1023. 
+
+Here is the wiring for a potentiometer, connected with it's singal wire to A0. 
 
 ![potentiometer](potentiometer.png "Potentiometer wiring")
+
+Here is the wiring for connecting an FSR (pressure sensor) to A1. This is the same wiring setup you would use for a photoresistor, or other analog input with two leads. 
+
+![fsr](fsr.png "FSR wiring")
+
