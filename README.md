@@ -8,7 +8,7 @@ University of Colorado Boulder, ATLAS Institute
 
 ## What is Arduino?
 
-#### History & Context
+### History & Context
 
 Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read **inputs** - light on a sensor, a finger on a button, or a Twitter message - and turn it into an **output** - activating a motor, turning on an LED, publishing something online. You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do this, you use the [Arduino programming language](https://www.arduino.cc/en/Reference/HomePage), and the [Arduino Software (IDE)](https://www.arduino.cc/en/Main/Software), based on [Processing](https://processing.org/). Read more about Arduino [here](https://www.arduino.cc/en/Guide/Introduction). 
 
@@ -25,15 +25,13 @@ There are many other microcontrollers and microcontroller platforms, but Arduino
 + **Open source and extensible software** - The Arduino software is published as open source tools, available for extension. The language can be expanded through C++ libraries, and people wanting to understand the technical details can make the leap from Arduino to the AVR C programming language on which it's based. Similarly, you can add AVR-C code directly into your Arduino programs if you want to.
 + **Open source and extensible hardware** - The plans of the Arduino boards are published under a Creative Commons license, so experienced circuit designers can make their own version of the module, extending it and improving it. 
 
-#### Physical Computing
-
-
-
-#### Example Projects
+### Example Projects
 + Jen Lewin, [Sidewalk Harp](https://www.youtube.com/watch?v=jXBtkfPY2D0 )
 + Danny Rozin, [Wooden Mirror](https://vimeo.com/101408845)
 + [Opentrons](https://www.kickstarter.com/projects/932664050/opentrons-open-source-rapid-prototyping-for-biolog)
 + Simone Giertz, [Useless Robots](https://www.youtube.com/watch?v=UlP4Z_pWhKo)
+
+<br>
 
 ## Setup & Resources
 
