@@ -50,7 +50,7 @@ There are many other microcontrollers and microcontroller platforms, but Arduino
 
 ## Hardware Setup
 
-Today, we are using the Sparkfun Redboard, which is Sparkfun's equivalent of the Arduino Uno.
+Today, we are using the Sparkfun Redboard, which is Sparkfun's equivalent of the Arduino Uno. Read more about the [Arduino Uno vs. Redboard here](https://learn.sparkfun.com/tutorials/redboard-vs-uno?_ga=2.63984172.2074834900.1509591674-603825142.1485451985).
 
 <br>
 
@@ -61,6 +61,10 @@ Today, we are using the Sparkfun Redboard, which is Sparkfun's equivalent of the
 We will be building our circuit on a Breadboard.
 
 ![breadboard](breadboard.jpg "Prototyping Breadboard")
+
+Before beginning any project, the first thing we want to do is setup our breadboard so that it is live with power and ground. Use Jumper Wires to connect your Redboard and your Breadboard together like this:
+
+![breadboard-setup](breadboardsetup.png "Breadboard Setup")
 
 
 <br>
@@ -129,8 +133,10 @@ Like inputs, digital outputs have a finite number of possible values. In the con
 
 Because our microcontroller is inherently digital (it operates on discreet signals), it cannot output a true analog voltage. Fortunately, there is a technique that we can use to 'fake' it, and produce a pseudo-analog output. The principle is called PWM, and you can read more about it [here](https://learn.sparkfun.com/tutorials/pulse-width-modulation). PWM is very useful if we want to dim an LED, or if we wanted to move a servo motor. The range of possible values that we can output using PWM is limited to an 8-bit number, which means a range of 0-255. 
 
-To use PWM, you must use a pin on your microcontroller that is marked with a this sympol ` ~ `. This includes pins 3, 5, 6, 9, 10, and 11. To use PWM, use the function [`analogWrite`}(https://www.arduino.cc/en/Reference/AnalogWrite)
+To use PWM, you must use a pin on your microcontroller that is marked with a this sympol ` ~ `. This includes pins 3, 5, 6, 9, 10, and 11. To use PWM, use the function [`analogWrite`](https://www.arduino.cc/en/Reference/AnalogWrite)
 
 <br>
 
-## Going Further
+## Workshop Circuits
+
+We are going to start by 
