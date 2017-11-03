@@ -1,9 +1,9 @@
 # Introduction to Arduino
 
-Workshop by Arielle Hein
+Workshop by Arielle Hein <br>
 Friday, November 3rd 2017
 
-TAM Workshop
+TAM Workshop <br>
 University of Colorado Boulder, ATLAS Institute
 
 ### What is Arduino?
