@@ -65,12 +65,17 @@ We will be building our circuit on a Breadboard.
 
 Sparkfun has a helpful, more in-depth tutorial on [How to use a breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard)
 
+![arduino](arduinoIDE.png "Arduino IDE")
+
+<br>
 
 ## The Arduino Programming Environment
 
-download the IDE
+### The Arduino IDE
 
-examples
+Visit the [Arduino Software Page](https://www.arduino.cc/en/Main/Software) and find the link to Download the Arduino IDE. Download and install for your specific platform. 
+
+
 
 uploading code
 
