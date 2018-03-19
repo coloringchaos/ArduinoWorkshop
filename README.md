@@ -2,8 +2,7 @@
 
 TAM Workshop <br>
 University of Colorado Boulder, ATLAS Institute
-
-Workshop by Arielle Hein
+By Arielle Hein
 
 ## What is Arduino?
 
